@@ -9,10 +9,6 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 
 
-
-
-
-
 @NgModule({
   declarations: [AppComponent],
   imports: [AngularFireModule.initializeApp(environment.ts), AngularFireAuthModule ,BrowserModule, IonicModule.forRoot(), AppRoutingModule],
